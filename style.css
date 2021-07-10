@@ -1,0 +1,502 @@
+ :root{
+ 	--primario: #B9DBDE;
+ 	--secundario: #76A6A8;
+ 	--blanco: #FFFFFF;
+ 	--oscuro1: #99A098;
+ 	--oscuro2: #52534D;
+    --adyacente1: #DBABAB;
+    --adyacente2: #F5E1DA;
+
+ }
+body{
+    background-image: url("../images/blancosucio.jpg");
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* ========================== *\
+          H E A D E R
+\* ========================== */
+.vl-header{
+    background-color: var(--primario);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vl-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+.vl-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Playfair + Pantalla";
+}
+.vl-menu__link{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 10px;
+    font-size: 21px;
+    color: var(--blanco);
+    text-decoration: none;
+    transition: background-color 100ms;
+}
+.activo{
+    background-color: var(--oscuro1);
+    border-radius: 30px;
+}
+
+/* ========================== *\
+            M A I N
+\* ========================== */
+.vl-post__uno{
+    display: flex;
+    text-align: center;
+    background-color: var(--primario);
+    padding: 10px;
+    margin: 10px;
+    width: 1170px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+        .vl-post__uno__tittle{
+            font-size: 60px;
+            font-family: "Playfair + Pantalla";
+            color:var(--oscuro1);
+            justify-content: center;
+            text-align: center;
+            padding: 10px 0px;
+            margin: 20px 0px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .vl-post__uno__link{
+            font-size: 24px;
+            font-family: "lato";
+            color:var(--blanco);
+            padding: 0px;
+            margin: 10px 10px;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .vl-button__uno{
+            background-color: var(--secundario);
+            width: 100px;
+            margin: 30px;
+            padding: 10px;
+            justify-content: center;
+            margin-left: auto;
+            display: flex;
+            margin-right: auto;
+        }
+        .vl-button__uno__link{
+            font-size: 20px;
+            font-family: "lato";
+            color:var(--blanco);
+            list-style: none;
+            display: flex;
+            text-decoration: none;
+        }
+
+
+
+/* ========================== *\
+         I N I C I O
+\* ========================== */
+.vl-post__dos{
+    width: 1170px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vl-post__dos__tittle{
+            font-size: 30px;
+            font-family: "Playfair + Pantalla";
+            color:var(--oscuro1);
+            justify-content: center;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+        }
+.vl-post__dos__link{
+            justify-content: center;
+            margin-left: auto;
+            display: flex;
+            margin-right: auto;           
+            text-decoration: none;
+            transition: background-color 100ms;
+}
+.vl-post__dos__container{
+    padding: 0px;
+    margin: 30px 30px;  
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+.vl-post__dos__container__tittle{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primario);
+    width: 250px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin: 10px 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vl-post__dos__container__tittle__link{ 
+    list-style: none;
+    font-family:"Playfair + Pantalla";
+    display: inline-block;
+    font-size: 21px;
+    color: var(--oscuro2);
+    text-decoration: none;
+}
+.vl-post__dos__container__text{
+    width: 300px;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+.vl-post__dos__container__text__link{
+    font-family:"Playfair + Pantalla", "bold";
+    padding: 5px 10px;
+    margin: 0 10px;
+    font-size: 18px;
+    color: var(--oscuro2);
+}
+.activo__container{
+    background-color: var(--oscuro1);
+    border-radius: 30px;}
+.vl-post__dos__img{
+    width: 214px;
+}
+.vl-post__dos__img:hover {
+        transform: scale(2); /*el zoom*/
+        }
+.vl-post__dos__text{
+            font-size: 30px;
+            font-family: "lato";
+            color:var(--oscuro2);
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+}
+.vl-img__proyect{
+            width: 269px;
+            height: 269px;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px;
+            margin: 20px 20px;  
+}
+.vl-img__proyect__container{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1100px;
+    }
+
+
+
+/* ========================== *\
+        S O B R E   M I
+\* ========================== */
+.vl-sobremi__container{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+    justify-content: center;
+    text-align: center;
+}
+.vl-sobremi__img{
+    margin: 10px;
+    padding: 45px;
+}
+.vl-sobremi__img:hover {
+        transform: scale(1.5); /*el zoom*/
+        }
+.vl-sobremi__container__link{
+    width: 400px;
+    padding: 50px;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+}
+.vl-sobremi__container__link__tittle{
+            font-size: 40px;
+            font-family: "Playfair + Pantalla", "bold";
+            color:var(--secundario);
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+}
+.vl-sobremi__container__link__text{
+            font-size: 24px;
+            font-family: "lato";
+            color:var(--oscuro2);
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+
+
+
+
+
+
+
+/* ========================== *\
+        C O N T A C T O
+\* ========================== */
+.vl-post__text{
+            font-size: 36px;
+            margin: 20px 20px;
+            font-family: "merienda one";
+            color:var(--secundario);
+            justify-content: center;
+            text-align: center;
+}
+.vl-section{
+    background-color: var(--oscuro1); 
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vl-section__container{
+            padding: 85px 0px;       
+            }
+.vl-section__title{
+            font-size: 36px;
+            font-family: "merienda one";
+            color:var(--blanco);
+            justify-content: center;
+            text-align: center;
+            padding: 10px 0px;
+            margin: 20px 0px;
+            margin-right: auto;
+            margin-left: auto;
+            }
+.vl-cform{
+    color: #c36a2d;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.vl-cform__label{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-family: "lato";
+    color:var(--blanco); 
+}
+.vl-cform__field{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vl-cform__button{
+    width: 100px;
+    height: 50px;
+    font-size:20px;
+}
+.vl-cform__field__mensaje{
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== *\
+            B L O G
+\* ========================== */
+.vl-blog{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 1170px;
+}
+.vl-img__blog{
+    width: 223.17px;
+    margin-right: auto;
+    margin-left: auto;
+    transition: transform .9s; /*animacion*/
+    align-content: center;
+    cursor: pointer;
+}
+.vl-blog__link__container:hover {
+        transform: scale(2); /*el zoom*/
+        }
+.vl-blog__link{
+    padding: 30px 10px;
+    margin: 30px 30px;  
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.vl-blog__link__container{
+    width: 223.17px;  
+    height: 230px;
+    margin-right: auto;
+    background-color: var(--oscuro1);
+}
+.vl-blog__date{ 
+    font-size: 14px;
+    font-family: "lato";
+    color:var(--primario); 
+}
+.vl-blog__text{
+    font-size: 18px;
+    font-family: "lato";
+    color:var(--blanco); 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== *\
+          F O O T E R
+\* ========================== */
+.vl-footer{
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vl-footer__paragraph{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primario);
+}
+.vl-footer__paragraph__link{
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+.vl-variación{
+    max-width: 200px;
+    max-height: 100px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .vl-footer__text{
+        font-family: "lato";
+        font-size: 25px;
+        color:var(--blanco);
+    }
+    .vl-footer__title{
+        font-family: "Lancelot", bold;
+        font-size: 25px;
+        padding: 0px;
+        margin: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        color:var(--oscuro1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.vl-footer__link{
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+.vl-footer__services{
+    padding: 5px 10px;
+    margin: 0 10px;   
+}
+.vl-footer__menu{
+    list-style: none;
+    font-family:"Lancelot", cursiva ;
+}
+    .vl-footer__menu__link{
+        font-size: 25px;
+        color: var(--blanco);
+        text-decoration: none;
+        transition: background-color 100ms;
+    }
+.vl-footer__contact{
+    padding: 5px 10px;
+    margin: 0 10px;    
+}
+.vl-footer_img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.vl-footer__copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: var(--oscuro1);
+    margin-left: auto;
+    margin-right: auto;
+}
+.vl-footer__copy__link{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lancelot", cursiva;
+    font-size: 28px;
+    color: var(--blanco);
+}
